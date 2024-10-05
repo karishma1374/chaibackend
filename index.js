@@ -8,11 +8,11 @@ app.get('/', (req, res) => {
 })
 
 app.get('/login', (req, res) => {
-    res.send('<h1>please login at chai or code</h1>')
+    res.send('<h1>please login at te desired page </h1>')
   })
 
 app.get('/youtube',(req,res)=>{
-    res.send('<h1>chai aur code </h1>')
+    res.send('<h1> karishma kumari </h1>')
 })
 
 app.listen(process.env.PORT, () => {
